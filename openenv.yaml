@@ -1,0 +1,13 @@
+name: "calendar-scheduler-env"
+version: "1.0.0"
+description: "An OpenEnv environment where an agent must schedule meetings without conflicts."
+tags:
+  - scheduling
+  - real-world
+tasks:
+  - id: "task_1_easy"
+    description: "Book a single 30-minute meeting on an empty calendar."
+  - id: "task_2_medium"
+    description: "Book a meeting around existing conflicts."
+  - id: "task_3_hard"
+    description: "Reschedule multiple overlapping meetings to free up a specific time block."
